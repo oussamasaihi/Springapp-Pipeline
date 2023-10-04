@@ -1,8 +1,7 @@
-# You can change this base image to anything else
-# But make sure to use the correct version of Java
+# version of java
 FROM adoptopenjdk/openjdk11:alpine-jre
 
-# Simply the artifact path
+#the artifact path
 ARG artifact=target/spring-boot-web.jar
 
 WORKDIR /opt/app
